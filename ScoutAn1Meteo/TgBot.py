@@ -12,9 +12,8 @@ from retry_requests import retry
 
 #bot token
 
-token = "7808338050:AAHpzymSlj4xhpod-0OZRmH62QarEWOQMu0"
-# BotOfficiale = 7808338050:AAHpzymSlj4xhpod-0OZRmH62QarEWOQMu0
-# BotTest = 7761317127:AAEsE09xOAHDn3TQjjWWqbY0VUtDs0q3
+token = ""
+
 
 # Configura il logging
 logging.basicConfig(
@@ -24,11 +23,11 @@ logger = logging.getLogger(__name__)
 
 # Configurazione del database
 db_config = {
-    'user': 'arduino',
-    'password': 'ScoutAncona1',
-    'host': '79.8.93.54',
-    'database': 'arduino_db',
-    'port': 25565
+    'user': '',
+    'password': '',
+    'host': '',
+    'database': '',
+    'port': 
 }
 
 # Set di admin (sostituisci con gli ID degli admin reali)

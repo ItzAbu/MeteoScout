@@ -7,11 +7,11 @@
 DHT dht(DHTPIN, DHTTYPE);
 
 // Dati Wi-Fi
-const char* ssid = "Wind3 HUB-37306C";        // Sostituisci con il tuo SSID
-const char* password = "6a6o9prbnbe9gho7"; // Sostituisci con la tua password Wi-Fi
+const char* ssid = "";        // Sostituisci con il tuo SSID
+const char* password = ""; // Sostituisci con la tua password Wi-Fi
 
 // Dati del server MySQL
-const char* server = "192.168.1.251"; // URL del tuo script PHP
+const char* server = ""; // URL del tuo script PHP
 
 // Pin LED
 #define LED_PIN 2 // Pin a cui è collegato il LED
